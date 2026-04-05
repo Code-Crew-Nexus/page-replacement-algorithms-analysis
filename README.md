@@ -92,6 +92,51 @@ page-replacement-algorithms-analysis/
 
 ---
 
+Here’s a **Requirements section** you can add separately to your README.md. It clearly lists what’s needed to build and run the project on both Windows and Linux:
+
+---
+
+## Requirements
+
+To build and run this project successfully, ensure the following prerequisites are installed and configured:
+
+### 🔹 General
+- A working **Git** installation (for cloning and version control).
+- Basic knowledge of **C programming** and **Makefiles**.
+
+### 🔹 On Linux (Arch/Ubuntu)
+- **GCC (GNU Compiler Collection)**  
+  Install via package manager:  
+  ```bash
+  sudo pacman -S gcc        # Arch Linux
+  sudo apt-get install gcc  # Ubuntu/Debian
+  ```
+- **Make (GNU Make)**  
+  ```bash
+  sudo pacman -S make       # Arch Linux
+  sudo apt-get install make # Ubuntu/Debian
+  ```
+
+### 🔹 On Windows 11
+- **MSYS2/MinGW-w64 environment**  
+  Download and install from [MSYS2](https://www.msys2.org/).  
+- Update packages:  
+  ```bash
+  pacman -Syu
+  ```
+- Install required toolchain:  
+  ```bash
+  pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-make
+  ```
+- Use **PowerShell** or **MSYS2 terminal** to run `mingw32-make`.
+
+### 🔹 Optional Tools
+- **VS Code** or any IDE/editor for editing source files.
+- **GitHub Desktop** or CLI for managing commits and pushes.
+- **Markdown previewer** for viewing README.md formatting.
+
+---
+
 ## Repository Setup
 
 ### Clone the Repository
@@ -283,6 +328,7 @@ The project is designed with a **cross‑platform Makefile**, ensuring seamless 
 - Md. Abdul Rayain  
 - Rishit Ghosh  
 - Y. Karthik  
+> Future contributors welcome! Fork the repo, submit pull requests, and help improve the project. 
 
 ---
 
@@ -292,3 +338,4 @@ The project is designed with a **cross‑platform Makefile**, ensuring seamless 
 - LRU and LFU approximate real-world scenarios better.
 - This project demonstrates the **trade-offs in memory management** strategies.
 
+---
