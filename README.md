@@ -45,10 +45,8 @@
 ## Overview
 
 This project implements and compares **Page Replacement Algorithms** as part of an Operating Systems Problem-Based Learning (PBL) assignment. It demonstrates how different strategies handle memory management when pages are requested by a process but limited frames are available.
-```
 
 ---
-
 
 ## Project Structure
 
