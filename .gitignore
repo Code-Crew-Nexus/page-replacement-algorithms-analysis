@@ -1,0 +1,17 @@
+# Compiled object files
+#*.o
+
+# Executables
+#page_replacement
+#page_replacement.exe
+
+# Backup and temporary files
+*~
+*.swp
+*.bak
+
+# Logs
+*.log
+
+# Build artifacts
+/build/

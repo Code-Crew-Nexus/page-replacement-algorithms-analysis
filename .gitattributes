@@ -1,0 +1,12 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Force LF endings for source code and docs
+*.c       text eol=lf
+*.h       text eol=lf
+Makefile  text eol=lf
+README.md text eol=lf
+
+# Keep executables and object files as binary
+*.exe     binary
+*.o       binary
