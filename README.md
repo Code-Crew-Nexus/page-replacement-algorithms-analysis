@@ -26,6 +26,12 @@
 
 ---
 
+## Overview
+
+This project implements and compares **Page Replacement Algorithms** as part of an Operating Systems Problem-Based Learning (PBL) assignment. It demonstrates how different strategies handle memory management when pages are requested by a process but limited frames are available.
+
+---
+
 ## What It Does
 
 - Loads a **reference string** of page requests from user input  
@@ -39,12 +45,6 @@
 - Summarizes **total page faults** for each algorithm  
 - Compares results side‑by‑side to highlight differences in efficiency  
 - Works seamlessly on **Windows 11 (MinGW/MSYS2)** and **Linux (Arch/Ubuntu)** using the provided Makefile  
-
----
-
-## Overview
-
-This project implements and compares **Page Replacement Algorithms** as part of an Operating Systems Problem-Based Learning (PBL) assignment. It demonstrates how different strategies handle memory management when pages are requested by a process but limited frames are available.
 
 ---
 
@@ -87,10 +87,6 @@ page-replacement-algorithms-analysis/
 - **Executables** (`page_replacement`, `page_replacement.exe`) are generated depending on OS.  
 - **`docs/`** can be used for reports, diagrams, or extended documentation.  
 - **`README.md`** provides usage instructions, algorithm explanations, and contributor credits.  
-
----
-
-Here’s a **Requirements section** you can add separately to your README.md. It clearly lists what’s needed to build and run the project on both Windows and Linux:
 
 ---
 
